@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { Rye } from "@next/font/google";
 
 const config: Config = {
   content: [
@@ -13,6 +14,9 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
+    font:{
+      secondary: ""
+    }
   },
   plugins: [],
 };
