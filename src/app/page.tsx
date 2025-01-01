@@ -5,7 +5,7 @@ import { Fragment } from "react";
 import { Libre_Bodoni, Rye } from "next/font/google";
 import { CiHeart, CiSearch, CiShoppingCart, CiUser } from "react-icons/ci";
 
-const rrye = Rye({
+const rye = Rye({
   subsets: ['latin'],
   weight: "400"
 })
@@ -44,7 +44,7 @@ function Home(){
 
         {/* BRAND NAME HERE WITH GOOGLE FONT NAME Rye */}
 
-          <h1 className={`${rrye.className} text-[60px] ml-8`}>Aurum</h1>
+          <h1 className={`${rye.className} text-[60px] ml-8`}>Aurum  </h1>
 
           {/* HERE IS THE SEARCH BAR */}
 
@@ -78,7 +78,7 @@ function Home(){
 
         {/* THIS IS THE OUTLINE OF THE IMAGE */}
 
-        <div className="absolute bg-transparent w-[380px] h-[525px] mt-[140px] ml-[1160px] border-[#FFFFFF] border-[0.86px] rounded-tl-[128px] rounded-br-[128px]"></div>
+        <div className="absolute bg-transparent w-[380px] h-[525px] mt-[140px] ml-[1135px] border-[#FFFFFF] border-[0.86px] rounded-tl-[128px] rounded-br-[128px]"></div>
 
           {/* THIS IMAGE TAG WAS A HEADACHE BUT TODAY I GOT TO LEARN ABOUT NEW PROPERTIES OF BORDER */}
 
